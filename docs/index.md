@@ -89,6 +89,7 @@ requests or bug reports related to the following:
   manifests are rendered using either *Kustomize* or *Helm* and - especially
   in the case of Helm - the templates need to support specifying the image's
   tag (and possibly name) using a parameter (i.e. `image.tag`).
+  (Please note that the *directory-type* application with plain files is not supported at the moment)
 
 Otherwise, current known limitations are:
 
